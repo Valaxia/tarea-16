@@ -1,0 +1,38 @@
+
+html{
+	 	box-sizing: border-box;
+}
+
+ *, *:before, *:after {
+ 	box-sizing: inherit;
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+.row:after{
+	clear: both;
+}
+.row{
+	*zoom: 1;
+}
+
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+
+
+h1{
+font-family: 'Droid Serif', serif;
+text-align: center;
+
+}
+header{
+	text-align: center;
+}
+.button{
+	color:#37474F;
+}
